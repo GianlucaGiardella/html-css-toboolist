@@ -9,6 +9,8 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
+/* Header */
+
 header {
     height: 90px;
     padding: 15px 10px 15px 20px;
@@ -26,6 +28,8 @@ h1 {
     bottom: 15px;
 }
 
+/* Main */
+
 main {
     background-color: white;
     width: 70%;
@@ -33,10 +37,12 @@ main {
     border-radius: 8px;
 }
 
+/* Menu */
+
 .menu {
     height: 70px;
     padding: 22px 0px 10px 50px;
-    border-bottom: 1px solid rgb(245, 245, 245);
+    border-bottom: 3px solid rgb(245, 245, 245);
 }
 
 .add {
@@ -47,7 +53,7 @@ main {
 
 .task {
     color: white;
-    background-color:deepskyblue;
+    background-color: dodgerblue;
     border: none;
 }
 
@@ -57,8 +63,10 @@ main {
     border: 1px solid lightgray;
 }
 
-.lists {
-    padding: 40px 50px;
+/* List of tasks */
+
+.list {
+    padding: 30px 60px;
 }
 
 ul {
@@ -66,14 +74,20 @@ ul {
 }
 
 li {
-    margin: 10px 0px;
+    margin: 15px 0px 25px 0px;
 }
 
-h3{
+ul>li:last-child {
+    margin-bottom: 40px;
+}
+
+h3 {
     font-size: 21px;
     font-weight: 500;
     display: inline-block;
 }
+
+/* ✓ and ✗ symbols */
 
 .symb {
     font-size: 14px;
@@ -94,6 +108,40 @@ h3{
 .x {
     color: tomato;
     border: 1px solid tomato;
-
 }
 
+/* Tags */
+
+.tag {
+    font-size: 12px;
+    display: inline-block;
+    height: 29px;
+    padding: 7px 10px;
+    border-radius: 14px;
+    margin-left: 5px;
+    color: white;
+}
+
+.editorial {
+    background-color: dodgerblue;
+}
+
+.goal {
+    background-color: darkorchid;
+}
+
+.recruiting {
+    background-color: cadetblue;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: hotpink;
+}
+
+.sales {
+    background-color: limegreen;
+}
